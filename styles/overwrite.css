@@ -1,0 +1,75 @@
+/*Drew McCanna CSS page  edited 06/28/24*/
+
+.aboutmebg {
+    background-image: url(../Images/background2.jpg);
+    background-position: top right 
+}
+
+/*Found small issues with the code and used chat gpt to help fix them*/
+
+body {
+    background: url(../Images/background2.jpg) no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    font-family: sans-serif
+}
+
+#content {
+    padding: 2em;
+}
+
+.chart-container {
+    margin-bottom: 2em;
+    padding: 1em;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+
+#footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #4CAF50;
+    color: black;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #333333;
+}
+
+.backtothetop {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blueviolet
+}
